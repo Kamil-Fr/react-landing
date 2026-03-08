@@ -6,7 +6,7 @@ import { useState } from "react";
 
   return (
     <nav className="border-b">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4 shadow-md">
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
@@ -16,10 +16,10 @@ import { useState } from "react";
 
           {/*Desktop Menu*/}
           <div className="hidden md:flex gap-8">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#" className="px-2 py-1 hover:text-blue-500 transition-colors duration-300 cursor-pointer">Home</a>
+            <a href="#" className="px-2 py-1 hover:text-blue-500 transition-colors duration-300 cursor-pointer">About</a>
+            <a href="#" className="px-2 py-1 hover:text-blue-500 transition-colors duration-300 cursor-pointer">Services</a>
+            <a href="#" className="px-2 py-1 hover:text-blue-500 transition-colors duration-300 cursor-pointer">Contact</a>
           </div>
 
           {/* Mobile Menu Button */}
