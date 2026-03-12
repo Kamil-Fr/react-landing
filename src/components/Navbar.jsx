@@ -10,7 +10,7 @@ import { useState } from "react";
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
-          <h1 className="text-xl font-bold">
+          <h1 className="text-xl font-bold cursor-pointer">
           DevStudio
           </h1>
 
@@ -31,10 +31,10 @@ import { useState } from "react";
         {/* Mobile Menu */}
         <div className={`md:hidden overflow-hidden transition-all duration-300 ${isOpen ? "max-h-40 pb-4" : "max-h-0"}`}>
         
-          <a href="#" className="block py-2" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#" className="block py-2" onClick={() => setIsOpen(false)}>About</a>
-          <a href="#" className="block py-2" onClick={() => setIsOpen(false)}>Services</a>
-          <a href="#" className="block py-2" onClick={() => setIsOpen(false)}>Contact</a>
+          <a href="#" className="block py-2 hover:text-blue-500 transition" onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#" className="block py-2 hover:text-blue-500 transition" onClick={() => setIsOpen(false)}>About</a>
+          <a href="#" className="block py-2 hover:text-blue-500 transition" onClick={() => setIsOpen(false)}>Services</a>
+          <a href="#" className="block py-2 hover:text-blue-500 transition" onClick={() => setIsOpen(false)}>Contact</a>
         </div>      
             
       </div>
