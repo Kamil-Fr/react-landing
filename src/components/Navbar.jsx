@@ -4,8 +4,8 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur border-b bg-white/70">
-      <div className="max-w-6xl mx-auto px-4 shadow-md">
+    <nav className="sticky top-0 z-50 backdrop-blur border-b bg-white/70 shadow-md">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <h1 className="text-xl font-bold cursor-pointer">DevStudio</h1>
